@@ -236,7 +236,7 @@ let orderId : ID = 101;
 
 interface User {
     name : string ;
-    phoen : number
+    phoen ?: number // ? optional will take undefined
 }
 
 interface Customer extends User{
@@ -267,3 +267,6 @@ let myCar: Car ={
     modelNo : 800,
     isElectric : true
 }
+
+//option field 
+
